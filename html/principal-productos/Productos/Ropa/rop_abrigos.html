@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="principal.html"><img src="imagenes/logo.png" alt="LOGO.PET" width="250" height="80"></a>
+        <p><a href="producto-perros.html">Perros</a></p>
+        <p><a href="poducto-gatos.html">Gatos</a></p>
+        <p><a href="productos.html">Productos</a></p>
+        <p><a href="servicio.html">Servicios</a></p>
+        <div class="logo">
+        <a class="usuario">¡Hola! <span th:text="${nombreUsuario}"> </span> </a>
+        <a><img src="IMAGENES/user.png" alt="USER.PET" width="50" height="50"></a>
+        </div>
+    </header>
+
+    <div class="Contenido">
+        
+        <diV class="Retroceder"></diV>
+            <button type="submit"> < </button>
+        </diV>
+
+        <div class="Imagenes">
+            <img src="IMAGENES/rop_gamusado.jpg">
+        </div>
+
+
+        <diV class="Avanzar">
+            <button type="submit"> > </button>
+        </diV>
+
+        <div class="Descripcion_Producto">
+            <h2>ABRIGOS PETS</h2>
+            <P> Cubierto en su interior de algodon,</P>
+            <p> ajustable con tela ideal para cualquier</p>
+            <p> tipo de pelaje. Ademas de tener bolsillos </p>
+            <p> ideales para guardar sus accesorios </p>
+            <p> (Exclusivo en todo tamaño y color)</p>
+        </div>
+
+        <div class="Precio">
+            <i><s> S/.80.00 </s></i>
+            <b><n> S/. 50.00 </b></h3>
+        </div>
+
+        <div class="DescripcionPedido">
+            <p>Talla</p>
+            <select id="txttalla" name="talla">
+                <option value=""select>Eliga Talla</option>
+                <option value="tallaXS">XS</option>
+                <option value="tallaS">S</option>
+                <option value="tallaM">M</option>
+                <option value="tallaL">L</option>
+            </select><br>
+
+            <p>Color</p>
+            <select id="txtcolor" name="Color">
+                
+                <option value="rosa">Rosado</option>
+                <option value="beige">Beige</option>
+                <option value="negro">Negro</option>
+                <option value="blanco">Blanco</option>
+                <option value="verde">Verde</option>
+            </select>
+        </div>
+
+        <div class="BotonesDeCantidad">
+            <button type="submit">-</button>
+            <input type="text" id="txtCantidad" value="1" readonly>
+            <button type="submit">+</button><br>
+        </div>
+
+        <div class="Carrito">
+            <button type="submit">Agregar al Carrito</button><br>
+        </div>
+    </div>
+
+</body>
+</html>
