@@ -7,36 +7,38 @@
 </head>
 <body>
     <header>
-        <a href="/html/princiapal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
-        <nav>
-            <p><a href="/html/princiapal-productos/poducto-ropa/producto-ropa.html">Ropa</a></p>
-            <p><a href="/html/princiapal-productos/producto-comida/producto-comida.html">Comida</a></p>
-            <p><a href="/html/princiapal-productos/productos.html">Productos</a></p>
-            <p><a href="/html/servicios/servicio.html">Servicios</a></p>
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
+        
+        <nav>                           
+                <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>              
+                <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>         
         </nav>
+        
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO¡</p>
-                <p><span th:text="${nombreUsuario}"> </span></p>
-            </div>
+                <p class="usuario">!BIENVENIDO USUARIO¡</p>
+                </div>
             <a><img src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50"></a>
         </div>
+
     </header>
 
     <div class="container">
         <div class="img">
-            <img src="imagenes/servicios/especificos/servis-grooming.png" alt="GROOMING">
+            <img src="/html/imagenes/servicios/especificos/servis-grooming.png" width="200" height="200" alt="GROOMING">
         </div>
     
         <div class="servicio">
             <h2>SERVICIO DE GROOMING</h2>
             <h3>El servicio de grooming incluye:</h3>
-            <p>Baño</p>
-            <p>Secado</p>
-            <p>Corte y desenredado del pelaje</p>
-            <p>Corte y limado de uñas</p>
-            <p>Limpieza de glándulas y orejas</p>
-            <p>Colonia (Opcional)</p>
+            <ul>
+                <li>Baño</li>
+                <li>Secado</li>
+                <li>Corte y desenredado del pelaje</li>
+                <li>Corte y limado de uñas</li>
+                <li>Limpieza de glándulas y orejas</li>
+                <li>Colonia (Opcional)</li>
+            </ul>
     
             <button class="btn" type="submit">Agregar al carrito</button>
         </div>
@@ -46,11 +48,12 @@
         <div>
             <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
         </div>
+
         <div>
             <nav>
-                <a href="">Políticas</a>
-                <a href="">Libro de reclamaciones</a>
-                <a href="">Recomendaciones</a>
+                <a href="/html/politicas/politicas-empresa.html">Políticas</a>
+                <a href="/html/politicas/libro-de-reclamaciones.html">Libro de reclamaciones</a>
+                <a href="/html/politicas/recomendaciones.html">Recomendaciones</a>
             </nav>
         </div>
     </footer>
