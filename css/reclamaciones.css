@@ -8,7 +8,7 @@
     margin: 0;
   }
   
-  header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,64 +60,91 @@ header .texto-bienvenida p{
     margin: 0;
 }
 
-
-.carrusel {
-    width: 90%;
-    max-width: 900px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-left: 200px;
+form h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lalezar', cursive;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.carrusel ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    animation: slide 20s infinite;
+label {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lalezar', cursive;
+    padding-left: 40px;
 }
 
-.carrusel li {
-    min-width: 100%;
-    padding-right: 30px;
-    padding-right: 10px;
+input{
+    width: 40%;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
-.carrusel img {
-    width: 95%;
-    height: 380px;
-    border-radius: 10px;
+input #nombre {
+    margin-left: 5%;
 }
 
-/* Animación del Carrusel */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-100%); }
-    50% { transform: translateX(-200%); }
-    75% { transform: translateX(-300%); }
-    100% { transform: translateX(0); }
+select{
+    width: 10%;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
 }
+
+textarea{
+    width: 50%;
+    height: 100px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+button{
+    width: 30%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(28,133,193);
+    color: white;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+
+
+
 
 footer {
     display: block;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 
 footer .contacto {
     font-size: 20px;
+    height: 80px;
     color: white;
     font-size: 22px;
     font-family: 'Lalezar', cursive;
     padding-left: 340px ;
     padding-top: 10px;
-    padding-bottom: -60px;
     background-color: rgb(28,133,193);
 }
 
