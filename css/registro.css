@@ -1,0 +1,80 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container h2{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lalezar', sans-serif;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.container h3{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lalezar', sans-serif;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.container input {
+    width: 25%; /* Mantiene el tamaño del input */
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    margin-right: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+}
+
+
+.eye-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('https://example.com/eye-icon.svg'); /* Ojo cerrado */
+    background-size: cover;
+}
+
+.eye-icon.show {
+    background-image: url('https://example.com/eye-icon-open.svg'); /* Ojo abierto */
+}
+
+
+.container button{
+    width: 15%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lalezar', sans-serif;
+    border-radius: 8px;
+}
+
+.container button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
