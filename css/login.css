@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Exotc350BdBT';
+    src: url('/fonts/Exotc350BdBT.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-image: url('/html/imagenes/login/fondo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form img {
+    width: 320px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+form input {
+    width: 25%;
+    height: 35px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Exotc350BdBT', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+form button {
+    width: 25%; 
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Exotc350BdBT', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(15,49,132);
+    cursor: pointer;
+    color: white;
+}
+
+form button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Exotc350BdBT', sans-serif;
+}
+form button:hover {
+    background-color: rgb(28,133,193);
+}
+
+form .Container .olvidar a{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Exotc350BdBT', sans-serif;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+

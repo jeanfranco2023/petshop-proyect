@@ -70,10 +70,13 @@
     font-size: 20px;
     font-family: 'Lalezar', sans-serif;
     border-radius: 8px;
+    background-color: rgb(0,51,153);
+    border: 1px white;
+    color: white;
 }
 
 .container button:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(8, 31, 77);
     color: white;
 }
 
