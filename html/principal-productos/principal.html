@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/principal.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Patitas Suaves</title>
 </head>
 <body>
@@ -27,105 +27,115 @@
     </header>
 
     <br>
-    <nav>
-        <div class="carrusel">
+    
+    <main>
+        <section class="carrusel">
             <ul>
-                    <li><img src="/html/imagenes/carrusel/mascotas.jpg" alt="IMAGEN1" width="500" height="250"></li>
-                    <li><img src="/html/imagenes/carrusel/productos.jpg" alt="IMAGEN2" width="500" height="250"></li>
-                    <li><img src="/html/imagenes/carrusel/servicios.jpg" alt="IMAGEN2" width="500" height="250"></li>
-                    <li><img src="/html/imagenes/carrusel/mascotas.jpg" alt="IMAGEN3" width="500" height="250"></li>
-            </ul>
-        </div>
-    </nav>
+                <li><img src="/html/imagenes/carrusel/mascotas.jpg" alt="IMAGEN1" width="500" height="250"></li>
+                <li><img src="/html/imagenes/carrusel/productos.jpg" alt="IMAGEN2" width="500" height="250"></li>
+                <li><img src="/html/imagenes/carrusel/servicios.jpg" alt="IMAGEN2" width="500" height="250"></li>
+                <li><img src="/html/imagenes/carrusel/mascotas.jpg" alt="IMAGEN3" width="500" height="250"></li>
+        </ul>
+        </section>
 
-        <section class="productos">
+        <section class="productos-en-oferta">
 
             <h2>Productos en oferta</h2>
-    
-            <article class="producto">
-                <img src="/html/imagenes/productos/Imagenes-accesorios/acc_img10.png" alt="PRODUCTO1" width="200" height="200">
-                <p>Camitas para 2 animales</p>
-                <p>$50.00</p>
-            </article>
-    
-            <article class="producto">
-                <img src="/html/imagenes/productos/Imagenes-comida/com_img3.png" alt="PRODUCTO2" width="200" height="200">
-                <p>Chiki</p>
-                <p>$15.00</p>
-            </article>
-    
-            <article class="producto">
-                <img src="/html/imagenes/productos/imagenes-ropa/rop_gamusado.jpg" alt="PRODUCTO3" width="200" height="200">
-                <p>Abrigos PET</p>
-                <p>$50.00</p>
-            </article>
-    
+
+                <div class="productos-flex">
+                    <article class="producto">
+                        <img src="/html/imagenes/productos/Imagenes-accesorios/acc_img10.png" alt="PRODUCTO1" width="200" height="200">
+                        <p class="título">Camitas para 2 Animales</p>
+                        <p>$50.00</p>
+                        <button>Más información</button>
+                    </article>
+            
+                    <article class="producto">
+                        <img src="/html/imagenes/productos/Imagenes-comida/com_img3.png" alt="PRODUCTO2" width="200" height="200">
+                        <p class="título">Chiki</p>
+                        <p>$15.00</p>
+                        <button>Más información</button>
+                    </article>
+            
+                    <article class="producto">
+                        <img src="/html/imagenes/productos/imagenes-ropa/rop_gamusado.jpg" alt="PRODUCTO3" width="200" height="200">
+                        <p class="título">Abrigos PET</p>
+                        <p>$50.00</p>
+                        <button>Más información</button>
+                    </article>
+                </div>
         </section>
     
         <section class="nuevos-productos">
     
             <h2>Nuevos productos</h2>
-    
-            <article class="fila-1">
+
+            <article class="productos-fila">
     
                 <div class="producto">
                     <img src="/html/imagenes/productos/Imagenes-comida/com_cordeno.png" alt="PRODUCTO1" width="200" height="200">
+                
+                    <div class="nombre-descripcion">
+                        <p class="título">Canbo Cordero Cachorros </p>
+                        <p>Razas pequeñas 1kg</p>
+                        <br>
+                        <p>DESCRIPCIÓN</p>
+                        <br>
+                        <p>Nutrición premium, sabor a cordero,</p>
+                        <p> ideal para perros de raza pequeña.</p>
+                        <p>$22.00</p>
+                        <button>Más información</button>
+                    </div>
+                    
                 </div>
-                <div class="nombre">
-                    <p>Canbo Cordero Cachorros </p>
-                    <p>Razas pequeñas 1kg</p>
-                </div>
-                <div class="descripcion">
-                    <p>Nutrición premium, sabor a cordero,</p>
-                    <p> ideal para perros de raza pequeña.</p>
-                    <p>$22.00</p>
-                </div>
-    
+
                 <div class="producto">
                     <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_gigwi bull S.webp" alt="PRODUCTO2" width="200" height="200">
-                </div>
-                <div class="nombre">
-                    <p>Gigwi Bulb S</p>
-                </div>
-                <div class="descripcion">
+                    <p class="título">Gigwi Bulb S</p>
+                    <br>
+                    <p>DESCRIPCIÓN</p>
+                    <br>
                     <p>Juguete interactivo y duradero, </p>
                     <p>ideal para tu engreido.</p>
                     <p>$30.00</p>
+                    <button>Más información</button>
                 </div>
-    
+
             </article>
     
-            <article class="fila-2">
+            <article class="productos-fila">
                 <div class="producto">
                     <img src="/html/imagenes/productos/Imagenes-accesorios/acc_img2.jpeg.jpg" alt="PRODUCTO3" width="200" height="200">
-                </div>
-                <div class="nombre">
-                    <p>Collar personalizado</p>
-                </div>
-                <div class="descripcion">
+                    <p class="título">Collar Personalizado</p>
+                    <br>
+                    <p>DESCRIPCIÓN</p>
+                    <br>
                     <p>Elegante y único, con el nombre</p>
                     <p>de tu mascota grabada.</p>
                     <p>Comodidad y estilo asegurados.</p>
                     <p>$35.00</p>
+                    <button>Más información</button>
                 </div>
+
                 <div class="producto">
                     <img src="/html/imagenes/productos/imagenes-ropa/rop_img2.png" alt="PRODUCTO4" width="200" height="200">
-                </div>
-                <div class="nombre">
-                    <p>Vestido princesa</p>
-                </div>
-                <div class="descripcion">
+                    <p class="título">Vestido princesa</p>
+                    <br>
+                    <p>DESCRIPCIÓN</p>
+                    <br>
                     <p>Encantador diseño de princesa,</p>
                     <p>suave y cómodo. Ideal para</p>
                     <p>ocasiones especiales</p>
                     <p>$20.00</p>
+                    <button>Más información</button>
                 </div>
             </article>
         </section>
+    </main>
 
     <footer>
         <div class="contacto">
-            <h1>¡PONTE EN CONTACTO CON NOSOTROS!</h1><br>
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
         <div>
             <nav>

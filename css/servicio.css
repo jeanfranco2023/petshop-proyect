@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que la altura mínima sea el 100% de la pantalla */
+    align-items: stretch;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Lalezar', cursive;
+    background-color: rgb(0,51,153);
+}
+  
+header nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    color: #91c6f1;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+header .texto-bienvenida {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding-right: 30px;
+    margin: 0;
+}
+
+header .texto-bienvenida p {
+    margin: 0;
+}
+
+/* Servicios Section */
+.servicios {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 0;
+    padding-top: 30px;
+    flex-grow: 1; /* Ocupa el espacio restante */
+}
+
+.producto {
+    position: relative;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.producto a:hover img {
+    transform: scale(1.05);
+}
+
+.producto a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.producto a:hover {
+    color: #f8f9fa;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgb(0,51,153);
+    color: white;
+    text-align: center;
+    padding: 0;
+    flex-shrink: 0; /* Evita que el footer se encoja */
+}
+
+footer .contacto {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    padding-left: 10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0,51,153);
+}
+
+footer .contacto h1{
+    margin-bottom: -3%;
+}
+footer nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 180px;
+    padding-right: 160px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(4,12,19);
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}

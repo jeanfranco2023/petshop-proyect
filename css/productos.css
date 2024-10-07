@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que la altura mínima sea el 100% de la pantalla */
+    align-items: stretch;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Lalezar', cursive;
+    background-color: rgb(0,51,153);
+}
+  
+header nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    color: #91c6f1;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+header .texto-bienvenida {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding-right: 30px;
+    margin: 0;
+}
+
+header .texto-bienvenida p {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.fila {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 0;
+    padding-top: 30px;
+}
+
+.producto {
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    border: #91c6f1 1px solid;
+}
+
+.producto img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.producto p{
+    font-size: 20px;
+    color: #333;
+}
+
+button {
+    background-color: #003399;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #001f66;
+}
+
+.paginas ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Coloca los elementos en línea */
+    justify-content: center; /* Alinea los elementos al centro */
+}
+
+.paginas li {
+    margin: 0 10px; /* Espacio entre los elementos */
+}
+
+.paginas a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #000; /* Color de los enlaces (puedes ajustarlo) */
+    padding: 10px 15px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.paginas a:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el mouse */
+}
+
+footer {
+    background-color: rgb(0,51,153);
+    color: white;
+    text-align: center;
+    padding: 0;
+    flex-shrink: 0; /* Evita que el footer se encoja */
+}
+
+footer .contacto {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    padding-left: 10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0,51,153);
+}
+
+footer .contacto h1{
+    margin-bottom: -3%;
+}
+footer nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 180px;
+    padding-right: 160px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(4,12,19);
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
