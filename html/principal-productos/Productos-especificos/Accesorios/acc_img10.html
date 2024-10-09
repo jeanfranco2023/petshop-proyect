@@ -3,78 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/accesorios.css">
     <title>Camita para 2 animales</title>
 </head>
 <body>
+    <div class="wrapper">
     <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
-        <nav>
-            <p><a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">ACCESORIOS</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">COMIDA</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">JUGUETES</a></p>
-            <p><a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">ROPA</a></p>
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
+        <nav>            
+            <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p>               
+            <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>             
+            <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>         
         </nav>
+        
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO USUARIO¡</p>
+                <p>!BIENVENIDO¡</p>
+                <p class="nombre-usuario">Usuario</p>
             </div>
-            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="40" height="40"></a>
+            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50"></a>
         </div>
     </header>
+    <!--<button type="submit" class="retroceder"> </button>-->
 
-    <div class="Contenido">
 
-        <diV class="Retroceder"></diV>
-            <button type="submit"> < </button>
-        </diV>
+    <main>
+        <section class="Contenido">
+        
+            <img src="/html/imagenes/productos/Imagenes-accesorios/acc_img10.png" class="img" width="550" height="550">
+        
+            <article class="Producto">
+                <h2>CAMITAS PARA 2 ANIMALES</h2>
+                <div class="Contenido-pro">
 
-        <div class="Imagenes">
-            <img src="/html/imagenes/productos/Imagenes-accesorios/acc_img10.png" width="200" height="200">
+                    <div class="Descripcion">
+                        <P> La base elaborada con fierro</P>
+                        <p>para obtener rigidez, y cubierta </p>
+                        <p>con tela de algodon para mantener la suavidad. </p> <br>
+                        <i><s> S/.90.00 </s></i>
+                        <b> S/. 50.00 </b>
+                     </div> 
+
+                     <div class="DescripcionPedido">
+                        <p>Color</p>
+                        <select id="txtcolor" name="Color">
+                            <option value="rosa">Rosado</option>
+                            <option value="beige">beige</option>
+                            <option value="negro">negro</option>
+                            <option value="blanco">blanco</option>
+                            <option value="verde">verde</option>
+                        </select>
+        
+                     </div>
+                </div>
+
+                <div class="Botones">
+                    <div class="counter">
+                        <button id="decrementar">-</button>
+                        <input type="text" id="cantidad" value="1" readonly>
+                        <button id="incrementar">+</button>
+                    </div>
+
+                    <button class="btn" type="submit" >Agregar al carrito</button>
+                
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+
+
+     <!----<button type="submit" class="avanzar"> > </button>-->
+   
+     <footer>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
-
-        <diV class="Avanzar"></diV>
-            <button type="submit"> > </button>
-        </diV>
-
-        <div class="Descripcion_Producto">
-            <h2>CAMITAS PARA 2 ANIMALES</h2>
-            <P> La base elaborada con fierro</P>
-            <p>para obtener rigidez, y cubierta con tela</p>
-            <p>de algodon para mantener la suavidad</p>
-            <i><s> S/.90.00 </s></i>
-            <b> S/. 50.00 </b>
-        </div>
-
-        <div class="DescripcionPedido">
-            <p>Color</p>
-            <select id="txtcolor" name="Color">
-                <option value="rosa">Rosado</option>
-                <option value="beige">beige</option>
-                <option value="negro">negro</option>
-                <option value="blanco">blanco</option>
-                <option value="verde">verde</option>
-            </select>
-
-            
-        </div>
-
-        <div class="BotonesDeCantidad">
-            <button type="submit">-</button>
-            <input type="text" id="txtCantidad" value="1" readonly>
-            <button type="submit">+</button><br>
-        </div>
-
-        <div class="Carrito">
-            <button type="submit">Agregar al Carrito</button><br>
-        </div>
-    </div>
-
-    <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
-        </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
@@ -83,5 +89,8 @@
             </nav>
         </div>
     </footer>
+    </div>
 </body>
+<script src="/boton.js"></script>
+
 </html>

@@ -74,6 +74,8 @@ header .texto-bienvenida {
 header .texto-bienvenida p {
     margin: 0;
 }
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -97,7 +99,9 @@ header .texto-bienvenida p {
     margin-left: 50px;
     margin-right: 50px;
     padding: 20px;
-    border: #91c6f1 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .producto img {
@@ -171,7 +175,7 @@ footer .contacto {
 }
 
 footer .contacto h1{
-    margin-bottom: -3%;
+    margin-bottom: -4%;
 }
 footer nav{ 
     display: flex;

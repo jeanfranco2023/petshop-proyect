@@ -2,50 +2,55 @@
 <html>
 <head>
     <title>Recomedaciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/recomendaciones.css">
 </head>
 <body>
     <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
-        
-        <nav>                           
-                <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>              
-                <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>         
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
+        <nav>            
+            <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p>               
+            <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>             
+            <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>         
         </nav>
         
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO USUARIO¡</p>
-                </div>
+                <p>!BIENVENIDO¡</p>
+                <p class="nombre-usuario">Usuario</p>
+            </div>
             <a><img src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50"></a>
         </div>
-
     </header>
 
     <h1>Recomendaciones</h1>
     
-    <form action="" ">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo" required><br><br>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="email@gmail.com"><br><br>
+    <form action="">
+        <div class="contenido">
+            <label for="name">Nombre:&nbsp;</label>
+            <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo" required><br><br>
+            
+            <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com"><br><br>
 
-        <label for="phone">Teléfono:</label>
-        <input type="number" id="phone" name="phone" placeholder="Ingrese su número de contacto" required><br><br>
+            <label for="phone">Teléfono:</label>
+            <input type="number" id="phone" name="phone" placeholder="Ingrese su número de contacto" required><br><br>
 
-        <label for="dni">DNI:</label>
-        <input type="number" id="dni" name="dni" placeholder="Ingrese su número de DNI" required><br><br> 
-
-        <label for="recommendation-type">Tipo de recomendación:</label><br>
-        <input type="radio" id="accesorios" name="recommendation-type" value="accesorios">
-        <label for="accesorios">Accesorios</label><br>
-        <input type="radio" id="juguetes" name="recommendation-type" value="juguetes">
-        <label for="juguetes">Juguetes</label><br>
-        <input type="radio" id="comida" name="recommendation-type" value="comida">
-        <label for="comida">Comida</label><br>
-        <input type="radio" id="ropa" name="recommendation-type" value="ropa">
-        <label for="ropa">Ropa</label><br>
-
+            <label for="dni">DNI:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="dni" name="dni" placeholder="Ingrese su número de DNI" required><br><br> 
+        </div>
+        <div class="recomendacion">
+            <label for="recommendation-type">Tipo de recomendación:</label><br>
+            <input type="radio" id="accesorios" name="recommendation-type" value="accesorios">
+            <label for="accesorios">Accesorios</label><br>
+            <input type="radio" id="juguetes" name="recommendation-type" value="juguetes">
+            <label for="juguetes">Juguetes</label><br>
+            <input type="radio" id="comida" name="recommendation-type" value="comida">
+            <label for="comida">Comida</label><br>
+            <input type="radio" id="ropa" name="recommendation-type" value="ropa">
+            <label for="ropa">Ropa</label><br>
+        </div>    
         
         <label for="recommendation">Recommendation:</label><br>
         <textarea id="recommendation" name="recommendation" placeholder="Ingrese la descripción de su recomendacion" rows="5" cols="30" required></textarea><br>
