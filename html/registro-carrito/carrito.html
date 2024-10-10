@@ -1,71 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/carrito.css">
     <title>Patitas Suaves</title>
 </head>
 <body>
     <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
-        <nav>
-            <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>
-            <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
+        <nav>            
+                <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p>               
+                <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>             
+                <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>         
         </nav>
+        
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO USUARIO¡</p>
-            </div>
-            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="40" height="40"></a>
+                <p>!BIENVENIDO¡</p>
+                <p class="nombre-usuario">Usuario</p>
+                </div>
+            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50"></a>
         </div>
     </header>
 
-    <br>
+    <main><br>
+        <h1>DETALLES DE LA COMPRA</h1>
 
-    <section>
-        <h2>Detalles de la compra</h2>
-        <table border="1" cellpadding="10" cellspacing="0">
-            <thead>
-                <tr>
-                    <th>Producto o Servicio</th>
-                    <th>Código de Mascota</th>
-                    <th>Cantidad</th>
-                    <th>Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Ejemplo Producto 1</td>
-                    <td>123456</td>
-                    <td>2</td>
-                    <td>S/. 200.00</td>
-                </tr>
-                <tr>
-                    <td>Ejemplo Servicio 1</td>
-                    <td>789101</td>
-                    <td>1</td>
-                    <td>S/. 150.00</td>
-                </tr>
-            </tbody>
-        </table>
-        
+        <div class="contenido-compra">
+            <table>
+                <thead>
+                    <tr>
+                        <th>PRODUCTO O SERVICIO</th>
+                        <th>CÓDIGO MASCOTA</th>
+                        <th>CANTIDAD</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Servicio de Baño</td>
+                        <td>12345</td>
+                        <td>2</td>
+                        <td>S/40.00</td>
+                    </tr>
+                    <tr>
+                        <td>Alimento Premium</td>
+                        <td>67890</td>
+                        <td>1</td>
+                        <td>S/25.00</td>
+                    </tr>
+                    <tr>
+                        <td>Accesorios</td>
+                        <td>54321</td>
+                        <td>3</td>
+                        <td>S/15.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="imagen-extra">
+                <a href="#"><img src="/html/imagenes/carrito/carritoperro.jpg" alt="Imagen Extra" width="200" height="200"></a>
+            </div>
+        </div>
+
         <div class="importe-total">
-            <p><strong>Importe Total:</strong> S/. 350.00</p>
+            <h2>IMPORTE TOTAL: S/140.00</h2>
         </div>
 
-        <div class="botones-carrito">
-            <button onclick="location.href='/html/principal-productos/principal.html'">Seguir Comprando</button>
-            <button onclick="location.href='/html/boleta-factura/boleta.html'">Finalizar Compra</button>
-        </div>
-    </section>
+        <div class="botones">
+            <a href="/html/principal-productos/principal.html"><button class="btn" id="seguir-comprando">SEGUIR COMPRANDO</button></a>
+            <button class="btn" id="finalizar">FINALIZAR</button>
+        </div><br>
+    </main>
 
     <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
@@ -74,6 +87,5 @@
             </nav>
         </div>
     </footer>
-
 </body>
 </html>

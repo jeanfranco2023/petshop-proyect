@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Lalezar', cursive;
+    background-color: rgb(0,51,153);
+  }
+  
+header nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header nav a:hover{
+    color: #91c6f1;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+header .texto-bienvenida{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding-right: 30px;
+    margin: 0;
+}
+
+header .texto-bienvenida p{
+    margin: 0;
+}
+
+.mascota-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; 
+    margin: 0 auto; 
+    margin-top: 30px; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mascota-form input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.mascota-form input:focus {
+    background-color: white; 
+    outline: none;
+}
+
+.mascota-form button {
+    padding: 10px 20px;
+    background-color: #003399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mascota-form button:hover {
+    background-color: #0055ff;
+}
+
+
+main {
+    position: relative;
+    background-image: url('/html/imagenes/registro-pet/perrosfondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    z-index: 1;
+}
+
+main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.7); 
+    z-index: -1; 
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-mascota, .subtitulo-mascota {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; 
+    text-shadow: 2px 2px 4px white; 
+ 
+    font-family: fantasy;
+}
+
+
+
+footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+footer .contacto {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    padding-left: 10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0,51,153);
+}
+
+footer .contacto h1{
+    margin-bottom: -3%;
+}
+footer nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-right: 160px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(4,12,19);
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}

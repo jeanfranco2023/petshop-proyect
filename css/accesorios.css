@@ -104,9 +104,11 @@ header .texto-bienvenida p {
 
 
 .Producto h2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-top: 50px;
     font-family: 'Lalezar';
-    margin-left: 100px;
     font-size: 50px;
 }
 
@@ -119,6 +121,7 @@ header .texto-bienvenida p {
     font-size: 25px;
     
 }
+
 .Descripcion i {
     font-family: 'Lalezar';
     text-align: left;
@@ -140,7 +143,22 @@ header .texto-bienvenida p {
 .DescripcionPedido{
     font-family: 'Lalezar';
     font-size: 25px;
-    
+}
+
+.DescripcionPedido label{
+    font-family: 'Lalezar';
+    font-size: 25px;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.DescripcionPedido input{
+    width: 240px;
+    height: 30px;
+    color: black;
+    font-family: 'Lalezar';
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 .DescripcionPedido select{
@@ -152,11 +170,6 @@ header .texto-bienvenida p {
     padding-left: 10px;
     margin-bottom: 15px;
 }
-
-
-
-
-
 
 .Producto .Botones {
     margin-left: 100px;
@@ -174,6 +187,7 @@ header .texto-bienvenida p {
     padding: 5px;
     margin-right: 40px;
 }
+
 .counter button {
     background-color: transparent;
     border: none;
@@ -207,6 +221,8 @@ header .texto-bienvenida p {
     border-radius: 15px;
 }
 
+
+
 footer {
     display: block;
     justify-content: center;
@@ -220,7 +236,7 @@ footer .contacto {
     color: white;
     font-size: 22px;
     font-family: 'Lalezar', cursive;
-    padding-left: 380px ;
+    padding-left: 400px ;
     padding-top: 10px;
     padding-bottom: -60px;
     background-color: rgb(0,51,153);

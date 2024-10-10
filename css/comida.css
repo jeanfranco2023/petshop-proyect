@@ -32,6 +32,7 @@ header {
     padding-right: 60px;
     font-family: 'Lalezar', cursive;
     background-color: rgb(0,51,153);
+    margin-bottom: 30px;
 }
   
 header nav {
@@ -75,78 +76,122 @@ header .texto-bienvenida p {
     margin: 0;
 }
 
-form{
-    margin-top: 20px;
-    padding-left: 120px;
-    padding-bottom: 40px;
+.Contenido{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
 }
 
-.recomendacion-text{
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    font-family: 'Lalezar', cursive;
-    padding-left: 70px;
-    padding-top: 20px;
-    margin-bottom: 0;
+.img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Producto{
+    display: flex;
+    flex-direction:column;
+    margin-top: 30px;
+   
+} 
+
+.Contenido-pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-form label{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Lalezar', cursive;
-}
 
-.contenido{
-    margin-bottom: 0;
-}
-.contenido input{
-    margin-bottom: 10px;
-    margin-left: 40px;
-    padding: 10px;
-    width: 325px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.recomendacion input{
-    align-items: center;
+.Producto h2{
+    display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-left: 60px;
+    width: 100%;
+    margin-top: 50px;
+    font-family: 'Lalezar';
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-#TXArecomendacion{
-    margin-left: 40px;
-    padding: 10px;
-    width: 400px;
-    height: 160px;
-    border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
+.Descripcion {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 200px;
 }
 
-form p{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Lalezar', cursive;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-form button{
-    width: 120px;
-    height: 45px;
+.Descripcion p {
+    width: 600px;
+    text-align: left;
+    font-family: 'Lalezar';
     font-size: 25px;
+}
+
+.Descripcion .price-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Descripcion i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.Descripcion b {
+    font-family: 'Lalezar';
+    font-size: 25px;
+}
+
+.Producto .Botones {
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    gap: 55px;
+    align-items: center;
+
+} 
+
+.counter {
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3; /* Fondo gris claro */
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 40px;
+}
+
+.counter button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.counter input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    outline: none;
+}
+.counter button:focus {
+    outline: none;
+}
+
+.Botones .btn{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
     background-color: rgb(0,51,153);
     color: aliceblue;
     font-family: 'Lalezar';
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 15PX;
+    padding-right: 15PX;
     cursor: pointer;
     border-radius: 15px;
-    margin-left: 160px;
-    margin-top: 20px;
 }
+
 
 
 footer {
@@ -158,6 +203,8 @@ footer {
 }
 
 footer .contacto {
+    font-size: 20px;
+    color: white;
     font-size: 22px;
     font-family: 'Lalezar', cursive;
     padding-left: 400px ;
@@ -168,7 +215,6 @@ footer .contacto {
 
 footer .contacto h1{
     margin-bottom: -4%;
-    color: white;
 }
 footer nav{ 
     display: flex;

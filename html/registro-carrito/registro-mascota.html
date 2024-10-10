@@ -3,56 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/datosmascota.css">
     <title>Patitas Suaves</title>
 </head>
 <body>
     <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
         <nav>
-            <p><a href="/html/princiapal-productos/poducto-ropa/producto-ropa.html">Ropa</a></p>
-            <p><a href="/html/princiapal-productos/producto-comida/producto-comida.html">Comida</a></p>
-            <p><a href="/html/princiapal-productos/productos.html">Productos</a></p>
-            <p><a href="/html/servicios/servicio.html">Servicios</a></p>
+            <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p>
+            <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>
+            <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>
         </nav>
+
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO¡</p>
-                <p><span th:text="${nombreUsuario}"> </span></p>
+                <p>¡BIENVENIDO!</p>
+                <p class="nombre-usuario">Usuario</p>
             </div>
             <a><img src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50"></a>
         </div>
     </header>
 
-
-    <form action="">
-        <h1>Datos de la mascota</h1>
-        <h3>Queremos conocer más al engreido</h3>
-
-        <div class="registro">
-            <label for="nombre">Nombre del pet</label>
-            <input type="text" id="nombre" name="txtnombrepet" required><br>
-            <label for="raza">Raza</label>
-            <input type="text" name="raza" id="txtrazapet"><br>
-            <label for="lactancia">Lactancia</label>
-            <input type="text" name="lactancia" id="txtlactanciapet"><br>
-            <label for="pelaje">Tipo de pelaje</label>
-            <input type="text" name="pelaje" id="txtpelajepet"><br>
-            <label for="edad">Edad</label>
-            <input type="number" name="edad" id="txtedadpet"><br>
-            <label for="telefono">Telefono</label>
-            <input type="number" name="telefono" id="txttelefonopet"><br>
-        </div>
-
-        <img src="/html/imagenes/registro-pet/dogpool.png" width="200" height="250" alt="">
-        <button type="submit">Guardar y continuar</button>
-    </form>
-
+    <main>
+        <h1 class="titulo-mascota">DATOS DE LA MASCOTA</h1>
+        <h2 class="subtitulo-mascota">Queremos conocer más al engreído</h2>
+        
+        <section class="form-section">
+            <form class="mascota-form">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre de la mascota">
+                <input type="text" id="raza" name="raza" placeholder="Raza">
+                <input type="number" id="edad" name="edad" placeholder="Edad">
+                <input type="text" id="lactancia" name="lactancia" placeholder="¿Sigue dando lactancia? (Sí/No)">
+                <input type="text" id="pelaje" name="pelaje" placeholder="Tipo de pelaje">
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono de contacto">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
 
     <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
