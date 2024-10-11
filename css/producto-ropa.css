@@ -62,14 +62,14 @@ header .texto-bienvenida p{
 }
 
 .user-menu {
-    position: relative; /* Asegura que el dropdown-menu se posicione en relación a este contenedor */
+    position: relative; 
 }
 
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 80px; /* Esto asegura que el menú se coloque justo debajo del header o botón */
-    right: 0; /* Mantiene el menú a 20px del margen derecho */
+    top: 80px;
+    right: 0; 
     background-color: #f9f9f9;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -95,9 +95,9 @@ header .texto-bienvenida p{
 .menu a {
     color: black;
     text-decoration: none;
-    padding: 12px 0; /* Elimina el padding a los lados */
-    margin: 0; /* Asegura que no haya margen extra */
-    display: block; /* Hace que el enlace ocupe todo el ancho disponible */
+    padding: 12px 0; 
+    margin: 0; 
+    display: block; 
 }
 
 .menu {
@@ -109,11 +109,10 @@ header .texto-bienvenida p{
     border-radius: 8px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    padding: 0; /* Elimina el padding en el menú */
+    padding: 0;
 }
 
 .menu a:hover {
-    color: black;
     background-color: #b2b9d5;
     border-radius: 8px;
 }
@@ -124,72 +123,74 @@ header .texto-bienvenida p{
 
 
 
-
-form h1{
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    font-family: 'Lalezar', cursive;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-label {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Lalezar', cursive;
-    padding-left: 40px;
-}
-
-input{
-    width: 40%;
-    height: 30px;
-    margin: 10px;
-    padding-left: 10px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
-}
-
-input #nombre {
-    margin-left: 5%;
-}
-
-select{
-    width: 10%;
-    height: 30px;
-    margin: 10px;
-    padding-left: 10px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
-}
-
-textarea{
-    width: 50%;
-    height: 100px;
-    margin: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
-    margin-left: 100px;
-}
-
-button{
-    width: 30%;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(28,133,193);
-    color: white;
-    margin-left: 15%;
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -20px;
     margin-bottom: 20px;
 }
 
+.fila {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.producto img {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    border-radius: 8px 8px 0 0;
+}
+
+.producto .precio,b,i {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.precio b {
+    margin-left: 15px;
+}
+
+button {
+    background-color: #003399;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #001f66;
+}
+
+
+button a{
+    color: white;
+    text-decoration: none;
+}
 
 footer {
     display: block;
@@ -204,7 +205,7 @@ footer .contacto {
     color: white;
     font-size: 22px;
     font-family: 'Lalezar', cursive;
-    padding-left: 480px ;
+    padding-left: 450px ;
     padding-top: 10px;
     padding-bottom: -60px;
     background-color: rgb(0,51,153);
@@ -228,3 +229,4 @@ footer nav a{
     text-decoration: none;
     font-size: 30px;
 }
+

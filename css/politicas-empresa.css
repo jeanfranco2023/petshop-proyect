@@ -13,6 +13,10 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-image: url("/html/imagenes/politicas/FONDO3.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -76,16 +80,102 @@ header .texto-bienvenida p {
     margin: 0;
 }
 
+
+.user-menu {
+    position: relative; /* Asegura que el dropdown-menu se posicione en relación a este contenedor */
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 80px; /* Esto asegura que el menú se coloque justo debajo del header o botón */
+    right: 0; /* Mantiene el menú a 20px del margen derecho */
+    background-color: #f9f9f9;
+    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 140px;
+    border-radius: 8px;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #b2b9d5;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 0; /* Elimina el padding a los lados */
+    margin: 0; /* Asegura que no haya margen extra */
+    display: block; /* Hace que el enlace ocupe todo el ancho disponible */
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    width: 140px;
+    top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 0; /* Elimina el padding en el menú */
+}
+
+.menu a:hover {
+    color: black;
+    background-color: #b2b9d5;
+    border-radius: 8px;
+}
+
+.user {
+    position: relative;
+}
+
 .container {
     display: flex;
     align-items: center;
     padding-left: 340px;
     margin-top: -20px;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .container img {
     margin-right: 80px;
+}
+
+.container h1 {
+    font-family: 'Lalezar', cursive;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.politicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
 }
 
 
@@ -98,11 +188,11 @@ footer {
 }
 
 footer .contacto {
-    font-size: 20px;
+    font-size: 20px;    
     color: white;
     font-size: 22px;
     font-family: 'Lalezar', cursive;
-    padding-left: 380px ;
+    padding-left: 450px ;
     padding-top: 10px;
     padding-bottom: -60px;
     background-color: rgb(0,51,153);

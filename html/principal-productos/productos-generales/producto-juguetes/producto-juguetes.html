@@ -3,72 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/producto-ropa.css">
     <title>Patitas Suaves</title>
 </head>
 <body>
     <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
-        <nav>
-            <p><a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">ACCESORIOS</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">COMIDA</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">JUGUETES</a></p>
-            <p><a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">ROPA</a></p>
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
+        <nav>            
+                <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p> 
+                
+                
+                <div class="user" id="user-productos">           
+                    <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>  
+                    <div class="menu" id="menu-productos">
+                        <a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">Alimentos</a>
+                        <a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">Accesorios</a>
+                        <a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">Juguetes</a>
+                        <a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">Ropa</a>  
+                    </div>
+                </div>
+                <br>   
+                                
+                <div class="user" id="user-servicios">
+                    <p><a href="/html/servicios/servicio.html" id="servicios-link">SERVICIOS</a></p>   
+                    <div class="menu" id="menu-servicios">
+                        <a href="/html/servicios/servicios especificos/veterinaria.html">Veterinaria</a>
+                        <a href="/html/servicios/servicios especificos/cathering.html">Cathering</a>
+                        <a href="/html/servicios/servicios especificos/grooming.html">Grooming</a>
+                    </div>
+                </div>                    
         </nav>
+        
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO USUARIO¡</p>
-            </div>
-            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="40" height="40"></a>
+                <p>!BIENVENIDO¡</p>
+                <p class="nombre-usuario">Usuario</p>
+                </div>
+                <div class="user-menu">
+                        <img class="user-img" src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50">
+                    <div class="dropdown-menu">
+                        <a href="/html/registro-carrito/carrito.html">Carrito</a>
+                        <a href="/html/registro-carrito/registro-mascota.html">Registro de mascotas</a>
+                        <a href="#">Cerrar Sesión</a>
+                    </div>
+                </div>
         </div>
     </header>
 
     <div class="container">
-        <div class="fila-1">
-
-            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_gigwi bull S.webp" width="150" height="150" alt="Gigwi Bulb S">
-            <p>Gigwi Bulb S</p>
-            <b><n>S/. 30.00</n></b>
-
-            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img1.png" width="150" height="150" alt="Ratón de Juguete">
-            <p>Ratón de Juguete</p>
-            <b><n>S/. 15.00</n></b>
-
-            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img2.png" width="150" height="150" alt="">
-            <p>Cat Kicher</p>
-            <b><n>S/. 25.00</n></b>
-
+        <div class="fila">
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_gigwi bull S.webp" width="150" height="150" alt="Gigwi Bulb S">
+                <p>Gigwi Bulb S</p>
+                <div class="precio">
+                    <b><n>S/. 30.00</n></b>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img1.png" width="150" height="150" alt="Ratón de Juguete">
+                <p>Ratón de Juguete</p>
+                <div class="precio">
+                    <b><n>S/. 15.00</n></b>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img2.png" width="150" height="150" alt="">
+                <p>Cat Kicher</p>
+                <div class="precio">
+                    <b><n>S/. 25.00</n></b>
+                </div>
+            </div>
         </div>
         
-        <div class="fila-2">
-
-            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img3.png" width="150" height="150" alt="">
-            <p>Rascador para Gatos</p>
-            <b><n>S/. 15.00</n></b>
-
-            <img src="" alt="">
-            <p></p>
-            <b><n></n></b>
-
-            <img src="" alt="">
-            <p></p>
-            <b><n></n></b>
-
+        <div class="fila">
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img3.png" width="150" height="150" alt="">
+                <p>Rascador para Gatos</p>
+                <div class="precio">
+                    <b><n>S/. 15.00</n></b>
+                </div>   
+            </div>
         </div>
-
     </div>
 
-    <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
-        </div>
-
-        <div>
-            <nav>
-                <a href="/html/politicas/politicas-empresa.html">Políticas</a>
-                <a href="/html/politicas/libro-de-reclamaciones.html">Libro de reclamaciones</a>
-                <a href="/html/politicas/recomendaciones.html">Recomendaciones</a>
-            </nav>
-        </div>
-    </footer>
-</body>
+        <footer>
+            <div class="contacto">
+                <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
+            </div>
+            <div>
+                <nav>
+                    <a href="/html/politicas/politicas-empresa.html">Políticas</a>
+                    <a href="/html/politicas/libro-de-reclamaciones.html">Libro de reclamaciones</a>
+                    <a href="/html/politicas/recomendaciones.html">Recomendaciones</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+        <script src="/js/menu.js"></script>
 </html>

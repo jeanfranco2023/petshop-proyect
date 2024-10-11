@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const userButton = document.querySelector(".user");
+    const userButton = document.querySelector(".user-img");
     const dropdownMenu = document.querySelector(".dropdown-menu");
 
     userButton.addEventListener("click", function (event) {
@@ -16,4 +16,28 @@ document.addEventListener("DOMContentLoaded", function () {
     dropdownMenu.addEventListener("click", function (event) {
         event.stopPropagation();
     });
+});
+
+// PRODUCTOS Menu
+const userProductos = document.getElementById('user-productos');
+const menuProductos = document.getElementById('menu-productos');
+
+userProductos.addEventListener('mouseover', function() {
+    menuProductos.style.display = 'block';
+});
+
+userProductos.addEventListener('mouseleave', function() {
+    menuProductos.style.display = 'none';
+});
+
+// SERVICIOS Menu
+const userServicios = document.getElementById('user-servicios');
+const menuServicios = document.getElementById('menu-servicios');
+
+userServicios.addEventListener('mouseover', function() {
+    menuServicios.style.display = 'block';
+});
+
+userServicios.addEventListener('mouseleave', function() {
+    menuServicios.style.display = 'none';
 });

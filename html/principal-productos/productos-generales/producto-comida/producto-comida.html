@@ -3,65 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/producto-ropa.css">
     <title>Patitas Suaves</title>
 </head>
 <body>
     <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
-        <nav>
-            <p><a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">ACCESORIOS</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">COMIDA</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">JUGUETES</a></p>
-            <p><a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">ROPA</a></p>
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
+        <nav>            
+                <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p> 
+                
+                
+                <div class="user" id="user-productos">           
+                    <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>  
+                    <div class="menu" id="menu-productos">
+                        <a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">Alimentos</a>
+                        <a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">Accesorios</a>
+                        <a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">Juguetes</a>
+                        <a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">Ropa</a>  
+                    </div>
+                </div>
+                <br>   
+                                
+                <div class="user" id="user-servicios">
+                    <p><a href="/html/servicios/servicio.html" id="servicios-link">SERVICIOS</a></p>   
+                    <div class="menu" id="menu-servicios">
+                        <a href="/html/servicios/servicios especificos/veterinaria.html">Veterinaria</a>
+                        <a href="/html/servicios/servicios especificos/cathering.html">Cathering</a>
+                        <a href="/html/servicios/servicios especificos/grooming.html">Grooming</a>
+                    </div>
+                </div>                    
         </nav>
+        
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO USUARIO¡</p>
-            </div>
-            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="40" height="40"></a>
+                <p>!BIENVENIDO¡</p>
+                <p class="nombre-usuario">Usuario</p>
+                </div>
+                <div class="user-menu">
+                        <img class="user-img" src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50">
+                    <div class="dropdown-menu">
+                        <a href="/html/registro-carrito/carrito.html">Carrito</a>
+                        <a href="/html/registro-carrito/registro-mascota.html">Registro de mascotas</a>
+                        <a href="#">Cerrar Sesión</a>
+                    </div>
+                </div>
         </div>
     </header>
 
     <section class="container">
-        <article class="fila-1">
+        <article class="fila">
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-comida/com_cordeno.png" width="150" height="150" alt="Canbo Cordero Cachorros Razas Pequeñas 1kg">
+                <p>Canbo Cordero Cachorros Razas Pequeñas 1kg</p>
+                <div class="precio">
+                    <b><n> S/. 22.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Comida/Canbo_pequeño.html">Mas informacion</a></button>
+            </div>
 
-            <img src="/html/imagenes/productos/Imagenes-comida/com_cordeno.png" width="150" height="150" alt="Canbo Cordero Cachorros Razas Pequeñas 1kg">
-            <p>Canbo Cordero Cachorros Razas Pequeñas 1kg</p>
-            <b><n> S/. 22.00 </n></b>
-
-            <img src="/html/imagenes/productos/Imagenes-comida/com_canbo7kg.png" width="150" height="150" alt="Canbo Cordero Adulto Raza Pequeñas 7kg">
-            <p>Canbo Cordero Adulto Raza Pequeñas 7kg</p>
-            <b><n> S/. 130.00 </n></b>
-
-            <img src="/html/imagenes/productos/Imagenes-comida/com_galleta.jpg" width="150" height="150" alt="Canbo Galleta-Biscuits Sabor Cordero 200gr">
-            <p>Canbo Galleta-Biscuits Sabor Cordero 200gr</p>
-            <b><n> S/. 15.00 </n></b>
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-comida/com_canbo7kg.png" width="150" height="150" alt="Canbo Cordero Adulto Raza Pequeñas 7kg">
+                <p>Canbo Cordero Adulto Raza Pequeñas 7kg</p>
+                <div class="precio">
+                    <b><n> S/. 130.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Comida/Canbo_adulto.html">Mas informacion</a></button>         
+            </div>
+             
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-comida/com_galleta.jpg" width="150" height="150" alt="Canbo Galleta-Biscuits Sabor Cordero 200gr">
+                <p>Canbo Galleta-Biscuits Sabor Cordero 200gr</p>
+                <div class="precio">
+                    <b><n> S/. 15.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Comida/Galleta.html">Mas informacion</a></button>
+            </div>
 
         </article>
         
-        <article class="fila-2">
+        <article class="fila">
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-comida/com_img3.png" width="150" height="150" alt="Chiki">
+                <p>Chiki</p>
+                <div class="precio">
+                    <b><n> S/. 20.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Comida/Chiki.html">Mas informacion</a></button>
+            </div>
 
-            <img src="/html/imagenes/productos/Imagenes-comida/com_img3.png" width="150" height="150" alt="Chiki">
-            <p>Chiki</p>
-            <b><n> S/. 20.00 </n></b>
+            <div class="producto">
+                <img src="/html/imagenes/productos/Imagenes-comida/com_img4.png" width="150" height="150" alt="">
+                <p>Super Cat</p>
+                <div class="precio">
+                    <b><n>S/. 20.00</n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Comida/Super_cat.html">Mas informacion</a></button>
+            </div>
 
-            <img src="/html/imagenes/productos/Imagenes-comida/com_img4.png" width="150" height="150" alt="">
-            <p>Super Cat</p>
-            <b><n>S/. 20.00</n></b>
-
-            <img src="" alt="">
-            <p></p>
-            <b><n></n></b>
-
-        </article>
+     </article>
 
     </section>
 
     <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
@@ -70,7 +117,6 @@
             </nav>
         </div>
     </footer>
-
-
 </body>
+    <script src="/js/menu.js"></script>
 </html>

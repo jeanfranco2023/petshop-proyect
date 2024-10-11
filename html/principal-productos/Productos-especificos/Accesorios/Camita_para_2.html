@@ -9,22 +9,48 @@
 </head>
 <body>
     <div class="wrapper">
-    <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
-        <nav>            
-            <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p>               
-            <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>             
-            <p><a href="/html/servicios/servicio.html">SERVICIOS</a></p>         
-        </nav>
-        
-        <div class="logo">
-            <div class="texto-bienvenida">
-                <p>!BIENVENIDO¡</p>
-                <p class="nombre-usuario">Usuario</p>
+        <header>
+            <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
+            <nav>            
+                    <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p> 
+                    
+                    
+                    <div class="user" id="user-productos">           
+                        <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>  
+                        <div class="menu" id="menu-productos">
+                            <a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">Alimentos</a>
+                            <a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">Accesorios</a>
+                            <a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">Juguetes</a>
+                            <a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">Ropa</a>  
+                        </div>
+                    </div>
+                    <br>   
+                                    
+                    <div class="user" id="user-servicios">
+                        <p><a href="/html/servicios/servicio.html" id="servicios-link">SERVICIOS</a></p>   
+                        <div class="menu" id="menu-servicios">
+                            <a href="/html/servicios/servicios especificos/veterinaria.html">Veterinaria</a>
+                            <a href="/html/servicios/servicios especificos/cathering.html">Cathering</a>
+                            <a href="/html/servicios/servicios especificos/grooming.html">Grooming</a>
+                        </div>
+                    </div>                    
+            </nav>
+            
+            <div class="logo">
+                <div class="texto-bienvenida">
+                    <p>!BIENVENIDO¡</p>
+                    <p class="nombre-usuario">Usuario</p>
+                    </div>
+                    <div class="user-menu">
+                            <img class="user-img" src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50">
+                        <div class="dropdown-menu">
+                            <a href="/html/registro-carrito/carrito.html">Carrito</a>
+                            <a href="/html/registro-carrito/registro-mascota.html">Registro de mascotas</a>
+                            <a href="#">Cerrar Sesión</a>
+                        </div>
+                    </div>
             </div>
-            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50"></a>
-        </div>
-    </header>
+        </header>
     <!--<button type="submit" class="retroceder"> </button>-->
 
 
@@ -92,5 +118,6 @@
     </div>
 </body>
 <script src="/boton.js"></script>
+<script src="/js/menu.js"></script>
 
 </html>

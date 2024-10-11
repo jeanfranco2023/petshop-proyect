@@ -3,64 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/producto-ropa.css">
     <title>Patitas Suaves</title>
 </head>
 <body>
     <header>
-        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="250" height="80"></a>
-        <nav>
-            <p><a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">ACCESORIOS</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">COMIDA</a></p>
-            <p><a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">JUGUETES</a></p>
-            <p><a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">ROPA</a></p>
+        <a href="/html/principal-productos/principal.html"><img src="/html/imagenes/principal/logo.png" alt="LOGO.PET" width="100" height="60"></a>
+        <nav>            
+                <p><a href="/html/politicas/acerca_de_nosotros.html">ACERCA DE NOSOTROS </a></p> 
+                
+                
+                <div class="user" id="user-productos">           
+                    <p><a href="/html/principal-productos/productos.html">PRODUCTOS</a></p>  
+                    <div class="menu" id="menu-productos">
+                        <a href="/html/principal-productos/productos-generales/producto-comida/producto-comida.html">Alimentos</a>
+                        <a href="/html/principal-productos/productos-generales/producto-accesorios/producto-accesorios.html">Accesorios</a>
+                        <a href="/html/principal-productos/productos-generales/producto-juguetes/producto-juguetes.html">Juguetes</a>
+                        <a href="/html/principal-productos/productos-generales/poducto-ropa/producto-ropa.html">Ropa</a>  
+                    </div>
+                </div>
+                <br>   
+                                
+                <div class="user" id="user-servicios">
+                    <p><a href="/html/servicios/servicio.html" id="servicios-link">SERVICIOS</a></p>   
+                    <div class="menu" id="menu-servicios">
+                        <a href="/html/servicios/servicios especificos/veterinaria.html">Veterinaria</a>
+                        <a href="/html/servicios/servicios especificos/cathering.html">Cathering</a>
+                        <a href="/html/servicios/servicios especificos/grooming.html">Grooming</a>
+                    </div>
+                </div>                    
         </nav>
+        
         <div class="logo">
             <div class="texto-bienvenida">
-                <p class="usuario">!BIENVENIDO USUARIO¡</p>
-            </div>
-            <a><img src="/html/imagenes/user.png" alt="USER.PET" width="40" height="40"></a>
+                <p>!BIENVENIDO¡</p>
+                <p class="nombre-usuario">Usuario</p>
+                </div>
+                <div class="user-menu">
+                        <img class="user-img" src="/html/imagenes/user.png" alt="USER.PET" width="50" height="50">
+                    <div class="dropdown-menu">
+                        <a href="/html/registro-carrito/carrito.html">Carrito</a>
+                        <a href="/html/registro-carrito/registro-mascota.html">Registro de mascotas</a>
+                        <a href="#">Cerrar Sesión</a>
+                    </div>
+                </div>
         </div>
     </header>
 
     <div class="container">
-        <div class="fila-1">
+        <div class="fila">
+            
+            <div class="producto">
+                <img src="/html/imagenes/productos/imagenes-ropa/rop_gamusado.jpg" width="150" height="150" alt="Abrigo Pet">
+                <p>Abrigo Pet</p>
+                <div class="precio">
+                    <i><s>S/.80.00</s></i>
+                    <b><n>S/. 50.00</n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Ropa/rop_abrigos.html">Mas informacion</a></button>
+            </div>
 
-            <img src="/html/imagenes/productos/imagenes-ropa/rop_gamusado.jpg" width="150" height="150" alt="Abrigo Pet">
-            <p>Abrigo Pet</p>
-            <i><s>S/.80.00</s></i>
-            <b><n>S/. 50.00</n></b>
+            <div class="producto">
+                <img src="/html/imagenes/productos/imagenes-ropa/rop_img1.png" width="150" height="150" alt="Ropa de Dormir">
+                <p>Ropa de Dormir</p>
+                <div class="precio">
+                    <b><n> S/.15.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Ropa/rop_img1.html">Mas informacion</a></button>
+            </div>
 
-            <img src="/html/imagenes/productos/imagenes-ropa/rop_img1.png" width="150" height="150" alt="Ropa de Dormir">
-            <p>Ropa de Dormir</p>
-            <b><n> S/.15.00 </n></b>
-
-            <img src="/html/imagenes/productos/imagenes-ropa/rop_img2.png" width="150" height="150" alt="Vestido Princesa">
-            <p>Vestido Princesa</p>
-            <b><n>S/. 20.00</n></b>
-
+            <div class="producto">
+                <img src="/html/imagenes/productos/imagenes-ropa/rop_img2.png" width="150" height="150" alt="Vestido de Princesa">
+                <p>Vestido de Princesa</p>
+                <div class="precio">
+                    <b><n> S/.20.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Ropa/rop_img2.html">Mas informacion</a></button>
+            </div>
         </div>
         
-        <div class="fila-2">
+        <div class="fila">
 
-            <img src="/html/imagenes/productos/imagenes-ropa/rop_img4.png" width="150" height="150" alt="Colchita">
-            <p>Colchita</p>
-            <b><n> S/.30.00 </n></b>
+            <div class="producto">
+                <img src="/html/imagenes/productos/imagenes-ropa/rop_img4.png" width="150" height="150" alt="Colchita">
+                <p>Colchita</p>
+                <div class="precio">
+                    <b><n> S/.30.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Ropa/rop_img4.html">Mas informacion</a></button>
+            </div>
 
-            <img src="/html/imagenes/productos/imagenes-ropa/rop_polo.avif" width="150" height="150" alt="Polo de Malla de Algodón para Perros">
-            <p>Polo de Malla de Algodón para Perros</p>
-            <b><n> S/.30.00 </n></b>
-
-            <img src="" alt="">
+            <div class="producto">
+                <img src="/html/imagenes/productos/imagenes-ropa/rop_polo.avif" width="150" height="150" alt="Polo de Malla de Algodón para Perros">
+                <p>Polo de Malla de Algodón para Perros</p>
+                <div class="precio">
+                    <b><n> S/.30.00 </n></b>
+                </div>
+                <button type="submit"><a href="/html/principal-productos/Productos-especificos/Ropa/rop_PoloMalla.html">Mas informacion</a></button>
+            </div>
 
         </div>
 
     </div>
 
     <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
@@ -70,4 +120,5 @@
         </div>
     </footer>
 </body>
+    <script src="/js/menu.js"></script>
 </html>
