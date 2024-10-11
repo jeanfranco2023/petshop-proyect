@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/juguetes.css">
     <title>Rascador para gatos</title>
 </head>
 <body>
@@ -49,47 +51,41 @@
         </div>
     </header>
 
+    <main>
+        <section class="Contenido">
+            
+            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img3.png" width="550" height="550" class="img">
 
-    <div class="Contenido">
+            <article class="Producto">
 
-        <diV class="Retroceder"></diV>
-            <button type="submit"> < </button>
-        </diV>
+                <div class="Descripcion_Producto">
+                    <h2>RASCADOR PARA GATOS</h2>
+                    <P> Perfecto para afilar las uñas</P>
+                    <p> del cazador del hogar, estaeleborado alrededor </p>
+                    <p> con cuerda de sisal fuerte para sus garras</p>
+                    <b> S/. 15.00 </b>
 
-        <div class="Imagenes">
-            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img3.png" width="200" height="200">
-        </div>
+                </div>
 
+                
+                <div class="BotonesDeCantidad">
+                    <div class="compra">
+                        <button type="submit" class="menoscantidad">-</button>
+                        <input type="text" id="txtCantidad" value="1" readonly>
+                        <button type="submit" class="mascantidad">+</button><br>
+                    </div>
+                        <button type="submit" class="botoncarrito">Agregar al Carrito</button>
+                    
+                </div>
 
-        <diV class="Avanzar"></diV>
-            <button type="submit"> > </button>
-        </diV>
-
-        <div class="Descripcion_Producto">
-            <h2>RASCADOR PARA GATOS</h2>
-            <P> Perfecto para afilar las uñas</P>
-            <p> del cazador del hogar, estaeleborado alrededor </p>
-            <p> con cuerda de sisal fuerte para sus garras</p>
-            <b> S/. 15.00 </b>
-        </div>
-
-
-        <div class="BotonesDeCantidad">
-            <button type="submit">-</button>
-            <input type="text" id="txtCantidad" value="1" readonly>
-            <button type="submit">+</button><br>
-        </div>
-
-        <div class="Carrito">
-            <button type="submit">Agregar al Carrito</button><br>
-        </div>
-    </div>
+            </article>
+        </section>
+    </main>
 
     <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
@@ -98,6 +94,7 @@
             </nav>
         </div>
     </footer>
-
 </body>
+<script src="/js/menu.js"></script>
+<script src="/js/boton.js"></script>
 </html>

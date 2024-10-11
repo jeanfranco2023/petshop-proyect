@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/juguetes.css">
     <title>Cat kicher</title>
 </head>
 <body>
@@ -49,47 +51,38 @@
         </div>
     </header>
 
+    <main>
+        <section class="Contenido">
 
-    <div class="Contenido">
+            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img2.png" width="550" height="550" class="img">
+            
+            <article class="Producto">
+                <div class="Descripcion_Producto">
+                    <h2>CAT KICHER</h2>
+                    <P> Peluche amigable para el engreido</P>
+                    <p> para que sienta proteccion y la</p>
+                    <p> sensacion de una compañia al dormir</p>
+                    <b> S/. 25.00 </b>
+                </div>
 
-        <diV class="Retroceder"></diV>
-            <button type="submit"> < </button>
-        </diV>
+                <div class="BotonesDeCantidad">
+                    <div class="compra">
+                        <button type="submit" class="menoscantidad">-</button>
+                        <input type="text" id="txtCantidad" value="1" readonly>
+                        <button type="submit" class="mascantidad">+</button><br>
+                    </div>
 
-        <div class="Imagenes">
-            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img2.png" width="200" height="200">
-        </div>
-
-
-        <diV class="Avanzar"></diV>
-            <button type="submit"> > </button>
-        </diV>
-
-        <div class="Descripcion_Producto">
-            <h2>CAT KICHER</h2>
-            <P> Peluche amigable para el engreido</P>
-            <p> para que sienta proteccion y la</p>
-            <p> sensacion de una compañia al dormir</p>
-            <b> S/. 25.00 </b>
-        </div>
-
-
-        <div class="BotonesDeCantidad">
-            <button type="submit">-</button>
-            <input type="text" id="txtCantidad" value="1" readonly>
-            <button type="submit">+</button><br>
-        </div>
-
-        <div class="Carrito">
-            <button type="submit">Agregar al Carrito</button><br>
-        </div>
-    </div>
+                        <button type="submit" class="botoncarrito">Agregar al Carrito</button>
+                    
+                </div>
+            </article>
+        </section>
+    </main>
 
     <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
@@ -98,6 +91,7 @@
             </nav>
         </div>
     </footer>
-
 </body>
+<script src="/js/menu.js"></script>
+<script src="/js/boton.js"></script>
 </html>

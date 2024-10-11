@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raton de juguete</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/ropa.css">
+    <title>Vestido princesa</title>
 </head>
 <body>
     <header>
@@ -49,47 +51,58 @@
         </div>
     </header>
 
+
+    <main>
+        <section class="Contenido">
+            <img src="/html/imagenes/productos/imagenes-ropa/rop_img2.png" width="400" height="450" class="img">
+        <article class="Producto">
+
+            <div class="Descripcion_Producto">
+                <h2>VESTIDO PRINCESA</h2>
+                <P> Elaborado con algodon</P>
+                <p> y la falda con brillitos</p>
+                <p> para darle ternura a la princesa </p>
+                <p> del hogar </p>
+                <b> S/. 20.00 </b>
+            </div>
     
-    <div class="Contenido">
+            <div class="DescripcionPedido">
+                <p>Talla</p>
+                <select id="txttalla" name="talla">
+                    <option value=""select>Eliga Talla</option>
+                    <option value="tallaXS">XS</option>
+                    <option value="tallaS">S</option>
+                    <option value="tallaM">M</option>
+                    <option value="tallaL">L</option>
+                </select><br>
+    
+                <p>Color</p>
+                <select id="txtcolor" name="Color">
+                    <option value="rosa">Rosado</option>
+                    <option value="beige">Beige</option>
+                    <option value="negro">Negro</option>
+                    <option value="blanco">Blanco</option>
+                    <option value="verde">Verde</option>
+                </select>
+                <div class="BotonesDeCantidad">
+                    <div class="compra">
+                        <button type="submit" class="menoscantidad">-</button>
+                        <input type="text" id="txtCantidad" value="1" readonly>
+                        <button type="submit" class="mascantidad">+</button><br>
+                    </div>
+                        <button type="submit" class="botoncarrito">Agregar al Carrito</button>
+                    
+                </div>
+            </div>
 
-        <diV class="Retroceder"></diV>
-            <button type="submit"> < </button>
-        </diV>
-
-        <div class="Imagenes">
-            <img src="/html/imagenes/productos/Imagenes-juguetes/jugue_img1.png" width="200" height="200">
-        </div>
-
-
-        <diV class="Avanzar"></diV>
-            <button type="submit"> > </button>
-        </diV>
-
-        <div class="Descripcion_Producto">
-            <h2>RATON DE JUGUETE</h2>
-            <P> Juguete que tiene una similitud</P>
-            <p> al raton, otorgandole al engreido</p>
-            <p> un objetivo de distraccion</p>
-            <b> S/. 15.00 </b>
-        </div>
-
-
-        <div class="BotonesDeCantidad">
-            <button type="submit">-</button>
-            <input type="text" id="txtCantidad" value="1" readonly>
-            <button type="submit">+</button><br>
-        </div>
-
-        <div class="Carrito">
-            <button type="submit">Agregar al Carrito</button><br>
-        </div>
-    </div>
+        </article>
+    </section>
+</main>
 
     <footer>
-        <div>
-            <h1>PONTE EN CONTACTO CON NOSOTROS</h1>
+        <div class="contacto">
+            <h1>¡CONTACTATE CON NOSOTROS!</h1><br>
         </div>
-
         <div>
             <nav>
                 <a href="/html/politicas/politicas-empresa.html">Políticas</a>
@@ -98,6 +111,7 @@
             </nav>
         </div>
     </footer>
-
 </body>
+<script src="/js/menu.js"></script>
+<script src="/js/boton.js"></script>
 </html>
