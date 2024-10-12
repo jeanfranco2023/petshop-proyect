@@ -113,6 +113,7 @@ header .texto-bienvenida p{
 }
 
 .menu a:hover {
+    color: black;
     background-color: #b2b9d5;
     border-radius: 8px;
 }
@@ -165,10 +166,17 @@ main section .contenedor .texto {
 
 main .segundo .contenedor .texto{
     padding-bottom: 120px;
+    font-size: 20px;
 }
 
 main .primero .contenedor .texto{
     padding-bottom: 50px;
+}
+
+main .tercero .contenedor .texto {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 120px;
 }
 
 main section img {
@@ -193,7 +201,7 @@ footer .contacto {
     color: white;
     font-size: 22px;
     font-family: 'Lalezar', cursive;
-    padding-left: 340px ;
+    padding-left: 460px ;
     padding-top: 10px;
     padding-bottom: -60px;
     background-color: rgb(0,51,153);
