@@ -3,7 +3,7 @@ const incrementarBtn = document.getElementById('incrementar');
 const cantidadInput = document.getElementById('cantidad');
 
 // Convertir el valor inicial a número
-let cantidad = parseInt(cantidadInput.value, 10);
+var cantidad = parseInt(cantidadInput.value, 10);
 
 // Función para incrementar la cantidad
 incrementarBtn.addEventListener('click', () => {
